@@ -41,6 +41,10 @@
   <header class="header" data-header>
     <div class="container">
 
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
       <a href="./" class="name-icon">
         <img src="assets/images/name-icon.svg" alt="name-icon">
       </a>
@@ -57,6 +61,7 @@
       <nav class="navbar" data-navbar>
                 
         <div class="navbar-top">
+          
           <a href="./" class="name-icon">
             <img src="assets/images/name-icon.svg" alt="Charbel home">
           </a>
@@ -85,14 +90,14 @@
             <li>
               <a href="#about" class="navbar-link">About Me</a>
             </li>
-                  
-            <li>
-              <a href="#projects" class="navbar-link">Projects</a>
-            </li>
-                  
+                
             <!-- <li>
               <a href="#" class="navbar-link">Blog</a>
             </li> -->
+
+            <li>
+              <a href="#projects" class="navbar-link">Projects</a>
+            </li>
                   
             <li>
               <a href="#contact" class="navbar-link">Contact</a>
@@ -109,13 +114,13 @@
           </li>
       
           <li>
-            <a href="https://www.linkedin.com" class="social-link">
+            <a href="https://www.linkedin.com/in/charbel-chavez/" class="social-link">
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>              
           </li>
                  
           <li>
-            <a href="https://github.com" target="_blank" class="social-link">
+            <a href="https://github.com/ChzCharbel" target="_blank" class="social-link">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
@@ -142,10 +147,6 @@
         
       </nav>
 
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button>
-
       <div class="overlay" data-nav-toggler data-overlay></div>
 
     </div>
@@ -160,17 +161,17 @@
         <div class="container">
 
           <figure class="hero-banner">
-            <img src="/assets/images/profile-pic-1.jpg" alt="charbelchz" data-reveal="top" width="300px" height="300px" class="w-100">
+            <img src="assets/images/profile-pic-1.jpg" alt="charbelchz" data-reveal="top" width="300px" height="300px" class="w-100">
           </figure>
 
           <div class="hero-content">
 
             <h1 class="hero-title" data-reveal="top" data-reveal-delay="0.5s">
-              SWE Former Student
+              Software Engineering Student
             </h1>
 
             <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
-              Hello! I'm Charbel Chavez, I am a former SWE student at Tecnologico de Monterrey, in Queretaro, Mexico. This webpage was designed by me
+              Hey! I'm Charbel, I'm currently enrolled @ Tecnologico de Monterrey pursuing a Bachelor's Degree in Computer Science. I made this website myself.
             </p>
 
             <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
@@ -197,19 +198,239 @@
               </h2>
 
               <p class="section-text">
-                On my free time I enjoy to learn new habilities and work on personal projects for my CV.
-                Also I just joined a Startup called CEAMS specialized in Digital Marketing. 
+                I'm currently part of a startup focused on web development and marketing called CEAMS, 
+                I'm also very passionate about small coding projects using Java or C++, like minigames or simple scripts.
               </p>
 
             </div>
-
-            <!-- Skills -->
+            
           </div>
+
+          <ul class="grid-list">
+
+            <li data-reveal="bottom">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/web-development-svgrepo-com.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                </div>
+
+                <h3 class="h4 card-title">Web Development</h3>
+
+                <p class="card-text">
+                  I have experience designing responsive web pages with Html/CSS/JS, 
+                  but i also know how to work with databases like MongoDB or MySQL.
+                </p>
+
+              </div>
+            </li>
+<!-- 
+            <li data-reveal="bottom" data-reveal-delay="0.25s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-2.svg" width="52" height="52" loading="lazy" alt="mobile design icon">
+                </div>
+
+                <h3 class="h4 card-title">Desarollo de Aplicaciones</h3>
+
+                <p class="card-text">
+                  He desarollado algunas aplicaciones simples para iOS utilizando swift. Tengo conocimiento de la arquitectura que debe tener una aplicacion movil.
+                </p>
+
+              </div>
+            </li>
+          -->
+            <li data-reveal="bottom" data-reveal-delay="0.5s">
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
+                    alt="web development icon">
+                </div>
+
+                <h3 class="h4 card-title">Software Development</h3>
+
+                <p class="card-text">
+                  I'm passionate about Software Development using Java, C++, Python, etc. 
+                  I don't have much expierence but im looking forward to constantly learn new things.
+                </p>
+
+              </div>
+            </li>
+
+            <li data-reveal="bottom" data-reveal-delay="0.75s">
+              
+              <div class="about-card">
+
+                <div class="card-icon">
+                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                </div>
+
+                <h3 class="h4 card-title">Data Analysis</h3>
+
+                <p class="card-text">
+                  I'm interested and I've been working on Data Analysis using Python and several libraries like pandas, sklearn, numpy, etc.
+                </p>
+
+              </div>
+
+            </li>
+
+          </ul>
+
         </div>
       </section>
 
     </article>
   </main>
+
+  <!-- Projects -->
+
+    <section id="projects" class="section project" aria-labelledby="project-label">
+      <div class="container">
+
+        <div class="title-wrapper" data-reveal="top">
+
+          <div>
+            <h2 class="h2 section-title" id="project-label">Relevant Projects</h2>
+
+            <p class="section-text">
+              I haven't worked in many .
+            </p>
+          </div>
+
+          <a href="#" class="btn btn-secondary">Ver todos mis proyectos</a>
+
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card project-card-1">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class="card-tag" style="color: #427D9D">Diseño Web</p>
+
+                  <h3 class="h3 card-title">Elaboracion de Landing Page</h3>
+
+                  <p class="card-text">
+                    He trabajado activamente en colaboracion con un compañero para elaborar esta landing page y muchas otras paginas web siendo parte de la Startup.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #427D9D">
+                    <span class="span">Ver Proyecto</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/ceams.png" width="650" height="370" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+<!--
+            <li>
+              <div class="project-card project-card-2" >
+
+                <div class="card-content" data-reveal="right">
+
+                  <p class=" card-tag" style="color: #0E8388">Desarollo de Aplicaciones</p>
+
+                  <h3 class="h3 card-title">Desarollo de Aplicaciones</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper. Fusce dapibus tellus cursus.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #0E8388">
+                    <span class="span">Ver Proyecto</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+                <figure class="card-banner" data-reveal="left">
+                  <img src="./assets/images/default-placeholder.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+
+              </div>
+            </li>
+-->
+            <li>
+              <div class="project-card project-card-3">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #5C8374">Desarollo de Software</p>
+
+                  <h3 class="h3 card-title">Desarollo de Software</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque
+                    id ligula felis.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #5C8374">
+                    <span class="span">Ver Proyecto</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                  </a>
+<!-- 
+                </div>
+
+                <figure class="card-banner" data-reveal="right">
+                  <img src="./assets/images/default-placeholder.png" width="600" height="367" loading="lazy" alt="Web Design"
+                    class="w-100">
+                </figure>
+              
+              </div>
+              -->
+            </li>
+
+            <li>
+              <div class="project-card project-card-4">
+
+                <div class="card-content" data-reveal="left">
+
+                  <p class=" card-tag" style="color: #005B41">Trabajos de investigación</p>
+
+                  <h3 class="h3 card-title">Trabajos de investigación</h3>
+
+                  <p class="card-text">
+                    Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
+                    porta felis euismod semper.
+                  </p>
+
+                  <a href="#" class="btn-text" style="color: #005B41">
+                    <span class="span">Ver Proyecto</span>
+
+                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+            </a>
+<!-- 
+          </div>
+
+            <figure class="card-banner" data-reveal="right">
+              <img src="./assets/images/default-placeholder.png" width="620" height="370" loading="lazy" alt="Mobile Design"
+                class="w-100">
+            </figure>
+              
+          </div>
+          -->
+        </li>
+
+      </ul>
+
+    </div>
+  </section>
   
   <!-- Contact -->
 
@@ -250,6 +471,7 @@
   </section>
 
   <!-- Footer -->
+
   <footer>
     <div class="container">
 

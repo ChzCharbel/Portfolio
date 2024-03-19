@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="15.681213mm"
-   height="3.1199646mm"
-   viewBox="0 0 15.681213 3.1199646"
+   width="31.51074mm"
+   height="4.2167969mm"
+   viewBox="0 0 31.51074 4.2167969"
    version="1.1"
    id="svg1"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -27,17 +27,17 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-29.056733,-55.279394)">
+     transform="translate(-11.253615,-120.09533)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.96875px;font-family:'Lucida Console';-inkscape-font-specification:'Lucida Console';fill:#adaddb;fill-opacity:1;stroke-width:0.264583"
-       x="28.859072"
-       y="58.339283"
-       id="text2"><tspan
+       style="font-size:5.6224px;font-family:Manrope;-inkscape-font-specification:Manrope;fill:#05052a;stroke-width:5.364"
+       x="11.084942"
+       y="124.2278"
+       id="text1"><tspan
          sodipodi:role="line"
-         id="tspan2"
-         style="font-size:3.96875px;stroke-width:0.264583"
-         x="28.859072"
-         y="58.339283">Charbel</tspan></text>
+         id="tspan1"
+         style="stroke-width:5.364"
+         x="11.084942"
+         y="124.2278">Charbel Chz</tspan></text>
   </g>
 </svg>
