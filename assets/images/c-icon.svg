@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="9.9999952mm"
+   height="9.9999952mm"
+   viewBox="0 0 9.9999952 9.9999952"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="c-icon.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   sodipodi:docname="c-icon.svg"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="10.279068"
+     inkscape:cx="30.304305"
+     inkscape:cy="22.813353"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-80.000002,-80.000005)">
+    <path
+       id="rect1"
+       style="fill:#05052a;stroke-width:5.364"
+       d="M 81.930634 80.000005 C 80.861137 80.000005 80.000002 80.86114 80.000002 81.930637 L 80.000002 88.06928 C 80.000002 89.138777 80.861137 89.999911 81.930634 89.999911 L 88.069277 89.999911 C 89.138774 89.999911 89.999908 89.138777 89.999908 88.06928 L 89.999908 81.930637 C 89.999908 80.86114 89.138774 80.000005 88.069277 80.000005 L 81.930634 80.000005 z M 85.509743 81.500172 C 86.101702 81.500172 86.735906 81.600722 87.411436 81.801962 L 87.411436 82.744024 C 86.721978 82.428285 86.07766 82.270151 85.478737 82.270151 C 84.785797 82.270151 84.214856 82.523742 83.765664 83.030311 C 83.319953 83.53688 83.096971 84.181969 83.096971 84.96611 C 83.096971 85.757191 83.349124 86.404494 83.85403 86.907594 C 84.358936 87.410693 85.00831 87.66207 85.802232 87.66207 C 86.282763 87.66207 86.848648 87.53723 87.499803 87.287415 L 87.499803 88.130775 C 86.810345 88.37712 86.160971 88.500261 85.551601 88.500261 C 84.486075 88.500261 83.627719 88.182811 82.976564 87.547865 C 82.32541 86.909449 81.99988 86.071232 81.99988 85.033806 C 81.99988 83.982502 82.323724 83.130701 82.971397 82.478407 C 83.61907 81.826112 84.46511 81.500172 85.509743 81.500172 z "
+       inkscape:export-filename="c-icon.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+  </g>
+</svg>
