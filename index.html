@@ -49,7 +49,7 @@
         <img src="assets/images/name-icon.svg" alt="name-icon">
       </a>
 
-      <ul class="nav-lang">&nbsp&nbsp&nbsp
+      <ul class="nav-lang">
         <ion-icon name="globe-outline" aria-hidden="true"></ion-icon>
         <li><a href="./">English</a>
           <ul>
@@ -66,7 +66,7 @@
             <img src="assets/images/name-icon.svg" alt="Charbel home">
           </a>
         
-          <ul class="nav-lang">&nbsp&nbsp&nbsp
+          <ul class="nav-lang">
             <ion-icon name="globe-outline" aria-hidden="true" role="img" class="md hydrated"></ion-icon>
             <li><a href="./">Español</a>
               <ul>
@@ -91,9 +91,9 @@
               <a href="#about" class="navbar-link">About Me</a>
             </li>
                 
-            <!-- <li>
+            <li>
               <a href="#" class="navbar-link">Blog</a>
-            </li> -->
+            </li>
 
             <li>
               <a href="#projects" class="navbar-link">Projects</a>
@@ -157,16 +157,16 @@
     <article>
       <!-- HERO -->
 
-      <section id="home" class="section-hero" aria-label="home">
+      <section id="home" class="section hero" aria-label="home">
         <div class="container">
 
           <figure class="hero-banner">
-            <img src="assets/images/profile-pic-1.jpg" alt="charbelchz" data-reveal="top" width="300px" height="300px" class="w-100">
+            <img src="assets/images/profile-pic-1.jpg" alt="charbelchz" data-reveal="top" width="300px" height="290px" class="w-100">
           </figure>
 
           <div class="hero-content">
 
-            <h1 class="hero-title" data-reveal="top" data-reveal-delay="0.5s">
+            <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
               Software Engineering Student
             </h1>
 
@@ -175,8 +175,10 @@
             </p>
 
             <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+
               <a onclick="window.open('Charbel Chavez - Resume.pdf')" href="Charbel Chavez - Resume.pdf" download="Curriculum_CharbelChavez" class="btn btn-primary">Curriculum</a>
               <a href="#contact" class="btn btn-secondary">Contact Me</a>
+
             </div>
 
           </div>
@@ -186,14 +188,14 @@
 
       <!-- About -->
 
-      <section id="about" class="section-about" aria-label="about">
+      <section id="about" class="section about" aria-label="about">
         <div class="container">
           
           <div class="wrapper">
 
             <div data-reveal="left">
 
-              <h2 class="section-title">
+              <h2 class="h2 section-title">
                 About Me
               </h2>
 
@@ -212,7 +214,7 @@
               <div class="about-card">
 
                 <div class="card-icon">
-                  <img src="./assets/images/web-development-svgrepo-com.svg" width="52" height="52" loading="lazy" alt="web design icon">
+                  <img src="./assets/images/webdev.svg" width="52" height="52" loading="lazy" alt="web design icon">
                 </div>
 
                 <h3 class="h4 card-title">Web Development</h3>
@@ -245,8 +247,7 @@
               <div class="about-card">
 
                 <div class="card-icon">
-                  <img src="./assets/images/icon-3.svg" width="52" height="52" loading="lazy"
-                    alt="web development icon">
+                  <img src="./assets/images/code.svg" width="52" height="52" loading="lazy" alt="coding icon">
                 </div>
 
                 <h3 class="h4 card-title">Software Development</h3>
@@ -264,7 +265,7 @@
               <div class="about-card">
 
                 <div class="card-icon">
-                  <img src="./assets/images/icon-4.svg" width="52" height="52" loading="lazy" alt="web seo icon">
+                  <img src="./assets/images/data.svg" width="52" height="52" loading="lazy" alt="web seo icon">
                 </div>
 
                 <h3 class="h4 card-title">Data Analysis</h3>
@@ -296,44 +297,40 @@
             <h2 class="h2 section-title" id="project-label">Relevant Projects</h2>
 
             <p class="section-text">
-              I haven't worked in many .
+              I haven't worked in many relevant projects, but here are some of my favorite projects.
             </p>
           </div>
 
-          <a href="#" class="btn btn-secondary">Ver todos mis proyectos</a>
+        </div>
 
-          </div>
+        <ul class="grid-list">
 
-          <ul class="grid-list">
+          <li>
+            <div class="project-card project-card-1">
 
-            <li>
-              <div class="project-card project-card-1">
+              <div class="card-content" data-reveal="left">
 
-                <div class="card-content" data-reveal="left">
+                <p class="card-tag" style="color: #456268">Web Designing</p>
 
-                  <p class="card-tag" style="color: #427D9D">Diseño Web</p>
+                <h3 class="h3 card-title">Landing Page Development</h3>
 
-                  <h3 class="h3 card-title">Elaboracion de Landing Page</h3>
+                <p class="card-text">
+                  He trabajado activamente en colaboracion con un compañero para elaborar esta landing page y muchas otras paginas web siendo parte de la Startup.
+                </p>
 
-                  <p class="card-text">
-                    He trabajado activamente en colaboracion con un compañero para elaborar esta landing page y muchas otras paginas web siendo parte de la Startup.
-                  </p>
-
-                  <a href="#" class="btn-text" style="color: #427D9D">
-                    <span class="span">Ver Proyecto</span>
-
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
-
-                </div>
-
-                <figure class="card-banner" data-reveal="right">
-                  <img src="./assets/images/ceams.png" width="650" height="370" loading="lazy" alt="Web Design"
-                    class="w-100">
-                </figure>
+                <a href="https://ceams-dev.github.io/ceams/index.html" target="_blank" class="btn-text" style="color: #456268">
+                  <span class="span">Ver Proyecto</span>
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
 
               </div>
-            </li>
+
+              <figure class="card-banner" data-reveal="right">
+                <img src="./assets/images/ceams.png" width="650" height="370" loading="lazy" alt="Web Design" class="w-100">
+              </figure>
+
+            </div>
+          </li>
 <!--
             <li>
               <div class="project-card project-card-2" >
@@ -349,88 +346,88 @@
                     porta felis euismod semper. Fusce dapibus tellus cursus.
                   </p>
 
-                  <a href="#" class="btn-text" style="color: #0E8388">
-                    <span class="span">Ver Proyecto</span>
+                <a href="#" class="btn-text" style="color: #0E8388">
+                  <span class="span">Ver Proyecto</span>
 
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
-
-                </div>
-
-                <figure class="card-banner" data-reveal="left">
-                  <img src="./assets/images/default-placeholder.png" width="600" height="367" loading="lazy" alt="Web Design"
-                    class="w-100">
-                </figure>
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
 
               </div>
-            </li>
+
+              <figure class="card-banner" data-reveal="left">
+                <img src="./assets/images/default-placeholder.png" width="600" height="367" loading="lazy" alt="Web Design"
+                  class="w-100">
+              </figure>
+
+            </div>
+          </li>
 -->
-            <li>
-              <div class="project-card project-card-3">
+          <li>
 
-                <div class="card-content" data-reveal="left">
+            <div class="project-card project-card-3">
 
-                  <p class=" card-tag" style="color: #5C8374">Desarollo de Software</p>
+              <div class="card-content" data-reveal="left">
 
-                  <h3 class="h3 card-title">Desarollo de Software</h3>
+                <p class=" card-tag" style="color: #456268">Software Development</p>
 
-                  <p class="card-text">
+                <h3 class="h3 card-title">Desarollo de Software</h3>
+
+                <p class="card-text">
                     Maecenas faucibus mollis interdum sed posuere porta consectetur cursus porta lobortis. Scelerisque
                     id ligula felis.
-                  </p>
+                </p>
 
-                  <a href="#" class="btn-text" style="color: #5C8374">
-                    <span class="span">Ver Proyecto</span>
+                <a href="#" class="btn-text" style="color: #456268">
+                  <span class="span">Ver Proyecto</span>
 
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-                  </a>
-<!-- 
-                </div>
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
 
-                <figure class="card-banner" data-reveal="right">
-                  <img src="./assets/images/default-placeholder.png" width="600" height="367" loading="lazy" alt="Web Design"
-                    class="w-100">
-                </figure>
-              
               </div>
-              -->
-            </li>
 
-            <li>
-              <div class="project-card project-card-4">
+              <figure class="card-banner" data-reveal="right">
+                <img src="/assets/images/appdevelop.jpeg" width="300" height="367" loading="lazy" alt="Web Design" class="w-100">
+              </figure>
+              
+            </div>
 
-                <div class="card-content" data-reveal="left">
+          </li>
 
-                  <p class=" card-tag" style="color: #005B41">Trabajos de investigación</p>
+          <li>
 
-                  <h3 class="h3 card-title">Trabajos de investigación</h3>
+            <div class="project-card project-card-4">
 
-                  <p class="card-text">
+              <div class="card-content" data-reveal="left">
+
+                <p class=" card-tag" style="color: #456268">Data Analysis</p>
+
+                <h3 class="h3 card-title">Investigation Projects</h3>
+
+                <p class="card-text">
                     Maecenas faucibus mollis interdum sed posuere consectetur est at lobortis. Scelerisque id ligula
                     porta felis euismod semper.
-                  </p>
+                </p>
 
-                  <a href="#" class="btn-text" style="color: #005B41">
-                    <span class="span">Ver Proyecto</span>
+                <a href="#" class="btn-text" style="color: #456268">
+                  <span class="span">Ver Proyecto</span>
 
-                    <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a>
-<!-- 
-          </div>
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </a>
+ 
+              </div>
 
-            <figure class="card-banner" data-reveal="right">
-              <img src="./assets/images/default-placeholder.png" width="620" height="370" loading="lazy" alt="Mobile Design"
-                class="w-100">
-            </figure>
+              <figure class="card-banner" data-reveal="right">
+                <img src="/assets/images/data-analysis.jpeg" width="620" height="370" loading="lazy" alt="Mobile Design" class="w-100">
+              </figure>
               
-          </div>
-          -->
-        </li>
+            </div>
+  
+          </li>
 
-      </ul>
+        </ul>
 
-    </div>
-  </section>
+      </div>
+    </section>
   
   <!-- Contact -->
 

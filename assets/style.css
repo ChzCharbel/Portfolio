@@ -17,7 +17,7 @@
     --dark-blue: #456268;
     --navy: #79A3B1;
     --blue: #92C7CF;
-    --sky: #AAD7D9;
+    --sky: #489b9f;
     --shadow: #E5E1DA;
     --light-grey: #D0D0D0;
     --grey: #AAAAAA;
@@ -57,8 +57,8 @@
      * border radius
      */
   
-    --radius-circle: 50%;
-    --radius-pill: 100px;
+    --radius-circle: 90%;
+    --radius-pill: 10px;
     --radius-8: 8px;
     --radius-6: 6px;
   
@@ -536,8 +536,8 @@ textarea.input-field {
   #FOOTER
 \*-----------------------------------*/
 
-.footer { padding-block: 40px; }
+.footer { padding-block: 60px; }
 
-.copyright { margin-block-end: 12px; }
+.copyright { margin-block-end: 10px; }
 
-.footer .social-link { color: var(--charcoal); }
+.footer .social-link { color: var(--dark-blue); }
